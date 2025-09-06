@@ -1,24 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>get_listUser</name>
+   <name>put_upDate</name>
    <tag></tag>
-   <elementGuidId>065b0415-292c-48ba-9443-87f20a875c7a</elementGuidId>
+   <elementGuidId>e56901c8-d22f-4194-86d5-6fc138e9dee9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <authorizationRequest>
+      <authorizationInfo>
+         <entry>
+            <key>bearerToken</key>
+            <value>reqres-free-v1</value>
+         </entry>
+      </authorizationInfo>
+      <authorizationType>Bearer</authorizationType>
+   </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>true</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n  \&quot;query\&quot;: \&quot;\&quot;\n}&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;,
+  &quot;displayText&quot;: &quot;&quot;,
+  &quot;displayVariables&quot;: &quot;&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;
+}</httpBodyContent>
+   <httpBodyType>GraphQL</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>4bd0a3de-3215-439e-9159-9f1ebdfc9c86</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer reqres-free-v1</value>
+      <webElementGuid>f4e24fe3-fbe3-47b3-9bdc-6b6e5cb28afb</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>10.3.1</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${baseUrl}/api/users?page=1</restUrl>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>${baseUrl}/api/users/${apiKey}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -28,9 +59,9 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>GlobalVariable.baseUrl</defaultValue>
+      <defaultValue>'https://reqres.in'</defaultValue>
       <description></description>
-      <id>1822dac7-368f-4c44-aebf-508b8e3740e3</id>
+      <id>02b7b6e7-42e7-4db5-896b-325f4bb02131</id>
       <masked>false</masked>
       <name>baseUrl</name>
    </variables>

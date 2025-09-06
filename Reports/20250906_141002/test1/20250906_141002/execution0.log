@@ -472,3 +472,147 @@
   <escapedJava>false</escapedJava>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-09-06T07:37:50.160695700Z</date>
+  <millis>1757144270160</millis>
+  <nanos>695700</nanos>
+  <sequence>141</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>294</thread>
+  <message>HAR: C:\Users\ADMINI~1\AppData\Local\Temp\har15495172500700331894\requests\ModalContext\put_upDate_0.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">fd1227b6-f6b9-45f0-9582-a8485c67f210</property>
+</record>
+<record>
+  <date>2025-09-06T07:41:40.218979800Z</date>
+  <millis>1757144500218</millis>
+  <nanos>979800</nanos>
+  <sequence>142</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>304</thread>
+  <message>HAR: C:\Users\ADMINI~1\AppData\Local\Temp\har9755849898359518650\requests\ModalContext\put_upDate_1.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">a3055db2-8b21-4a0a-adaf-73e86f2f9f65</property>
+</record>
+<record>
+  <date>2025-09-06T07:42:34.241428600Z</date>
+  <millis>1757144554241</millis>
+  <nanos>428600</nanos>
+  <sequence>143</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>310</thread>
+  <message>HAR: C:\Users\ADMINI~1\AppData\Local\Temp\har16049255919518406656\requests\ModalContext\put_upDate_2.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">9c4b2ca1-674c-435c-ac8f-0c242a0e51fb</property>
+</record>
+<record>
+  <date>2025-09-06T07:49:03.492625Z</date>
+  <millis>1757144943492</millis>
+  <nanos>625000</nanos>
+  <sequence>152</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>424</thread>
+  <message>HAR: C:\Users\ADMINI~1\AppData\Local\Temp\har6360667706630308635\requests\ModalContext\put_upDate_3.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">449c3004-8ba2-4337-80ce-feb8ad45624e</property>
+</record>
+<record>
+  <date>2025-09-06T07:49:18.522695300Z</date>
+  <millis>1757144958522</millis>
+  <nanos>695300</nanos>
+  <sequence>153</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>431</thread>
+  <message>HAR: C:\Users\ADMINI~1\AppData\Local\Temp\har691736194256669059\requests\ModalContext\put_upDate_4.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">7fa2cb66-d383-434f-a6be-a6cade8b84e3</property>
+</record>
+<record>
+  <date>2025-09-06T07:49:58.562342400Z</date>
+  <millis>1757144998562</millis>
+  <nanos>342400</nanos>
+  <sequence>156</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>446</thread>
+  <message>HAR: C:\Users\ADMINI~1\AppData\Local\Temp\har6665658793803837761\requests\ModalContext\put_upDate_5.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">c444a86d-9e2b-4a9e-91f3-b8317a3c9ba5</property>
+</record>
+<record>
+  <date>2025-09-06T07:51:41.143269800Z</date>
+  <millis>1757145101143</millis>
+  <nanos>269800</nanos>
+  <sequence>157</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>461</thread>
+  <message>HAR: C:\Users\ADMINI~1\AppData\Local\Temp\har16364226120592050665\requests\ModalContext\get_listUser_6.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">58d490ce-138a-4d99-bf30-1fba0c0ccd6b</property>
+</record>
+<record>
+  <date>2025-09-06T07:51:51.304043600Z</date>
+  <millis>1757145111304</millis>
+  <nanos>43600</nanos>
+  <sequence>158</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>464</thread>
+  <message>HAR: C:\Users\ADMINI~1\AppData\Local\Temp\har7027757656980895782\requests\ModalContext\get_listUser_7.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">bb857e2d-87ae-4e21-9240-e52a19ea9b4a</property>
+</record>
+<record>
+  <date>2025-09-06T07:52:26.745913600Z</date>
+  <millis>1757145146745</millis>
+  <nanos>913600</nanos>
+  <sequence>159</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>465</thread>
+  <message>HAR: C:\Users\ADMINI~1\AppData\Local\Temp\har5807367001026892927\requests\ModalContext\get_singleUser_8.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">ef30e557-cf6c-408c-938d-4db523afbe74</property>
+</record>
+<record>
+  <date>2025-09-06T07:52:44.149576800Z</date>
+  <millis>1757145164149</millis>
+  <nanos>576800</nanos>
+  <sequence>160</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>466</thread>
+  <message>HAR: C:\Users\ADMINI~1\AppData\Local\Temp\har16808509891707205421\requests\ModalContext\get_listUser_9.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">3b266a90-b4d0-4d3b-b625-7deec4b150ca</property>
+</record>
+</log>

@@ -28,14 +28,14 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>'https://reqres.in'</defaultValue>
+      <defaultValue>GlobalVariable.baseUrl</defaultValue>
       <description></description>
       <id>0da64b4a-011d-4e1c-82e8-c64863218e93</id>
       <masked>false</masked>
       <name>baseUrl</name>
    </variables>
    <variables>
-      <defaultValue>'3'</defaultValue>
+      <defaultValue>GlobalVariable.userId</defaultValue>
       <description></description>
       <id>5333736e-067e-4960-ab50-14eacf76cbdc</id>
       <masked>false</masked>
