@@ -6,11 +6,12 @@
    <UUID>3a0cf674-f5f4-4c1c-ac7d-dd6f2baf243f</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>10.3.1</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>10.3.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\Seno\Automation\Tes1\Tes1.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

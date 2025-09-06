@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test1,,,,06-09-2025 13:39:38,06-09-2025 13:39:51,"12,523s",PASSED
+,,,,,,,
+Test Cases/TC_01_getListUser,,,,06-09-2025 13:39:42,06-09-2025 13:39:50,"8,332s",PASSED
+"sendRequest(findTestObject(""getListUser"", [""baseUrl"":""https://reqres.in""]))",,,,06-09-2025 13:39:44,06-09-2025 13:39:50,"5,867s",PASSED

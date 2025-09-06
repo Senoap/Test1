@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test1,,,,06-09-2025 14:10:23,06-09-2025 14:10:39,"15,931s",PASSED
+,,,,,,,
+Test Cases/TC_01_getListUser,,,,06-09-2025 14:10:28,06-09-2025 14:10:37,"8,903s",PASSED
+"sendRequestAndVerify(findTestObject(""get_listUser"", [""baseUrl"":""https://reqres.in""]))",,,,06-09-2025 14:10:30,06-09-2025 14:10:36,"5,908s",PASSED
+,,,,,,,
+Test Cases/TC_02_getSingleUser,,,,06-09-2025 14:10:37,06-09-2025 14:10:38,"1,650s",PASSED
+"sendRequest(findTestObject(""get_singleUser"", [""baseUrl"":""https://reqres.in"", ""userId"":""3""]))",,,,06-09-2025 14:10:38,06-09-2025 14:10:38,"0,523s",PASSED

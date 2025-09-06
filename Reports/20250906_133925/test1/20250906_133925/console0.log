@@ -1,0 +1,15 @@
+2025-09-06 13:39:38.526 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/test1
+2025-09-06 13:39:38.857 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = seno agung
+2025-09-06 13:39:38.864 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Tes1
+2025-09-06 13:39:38.882 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - DESKTOP-F1C89G0
+2025-09-06 13:39:38.914 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-09-06 13:39:38.919 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.108
+2025-09-06 13:39:38.948 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-09-06 13:39:42.582 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-06 13:39:42.582 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_01_getListUser
+2025-09-06 13:39:44.985 DEBUG testcase.TC_01_getListUser               - 1: sendRequest(findTestObject("getListUser", ["baseUrl":"https://reqres.in"]))
+2025-09-06 13:39:50.428 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: D:\Seno\Automation\Tes1\Reports\20250906_133925\test1\20250906_133925\requests\main\getListUser_0.har
+2025-09-06 13:39:50.907 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_01_getListUser
+2025-09-06 13:39:51.306 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-09-06 13:39:51.306 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/test1
+2025-09-06 13:39:51.306 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

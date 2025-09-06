@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test1" time="15.663" tests="2" failures="0" errors="0">
+   <testsuite name="test1" tests="2" failures="0" errors="0" time="15.663" skipped="0" timestamp="2025-09-06T07:10:23.100Z" hostname="Administrator - DESKTOP-F1C89G0" id="Test Suites/test1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Seno\\Automation\\Tes1\\Reports\\20250906_141002\\test1\\20250906_141002"/>
+         <property name="logFiles" value="D:\\Seno\\Automation\\Tes1\\Reports\\20250906_141002\\test1\\20250906_141002\\console0.log, D:\\Seno\\Automation\\Tes1\\Reports\\20250906_141002\\test1\\20250906_141002\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="seno agung"/>
+         <property name="hostName" value="Administrator - DESKTOP-F1C89G0"/>
+         <property name="hostAddress" value="192.168.0.108"/>
+         <property name="projectName" value="Tes1"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+      </properties>
+      <testcase name="Test Cases/TC_01_getListUser" time="8.903" classname="Test Cases/TC_01_getListUser" status="PASSED">
+         <system-out><![CDATA[06-09-2025T14:10:28 - [TEST_CASE][PASSED] - Test Cases/TC_01_getListUser: Test Cases/TC_01_getListUser
+
+06-09-2025T14:10:30 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("get_listUser", ["baseUrl":"https://reqres.in"])): Send request and verify the response successfully
+
+06-09-2025T14:10:35 - [MESSAGE][INFO] - HAR: D:\Seno\Automation\Tes1\Reports\20250906_141002\test1\20250906_141002\requests\main\get_listUser_0.har
+
+06-09-2025T14:10:36 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+06-09-2025T14:10:36 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+06-09-2025T14:10:36 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+06-09-2025T14:10:36 - [MESSAGE][PASSED] - Verify response successfully
+
+06-09-2025T14:10:36 - [MESSAGE][PASSED] - All validation steps have been passed
+
+06-09-2025T14:10:36 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_02_getSingleUser" time="1.65" classname="Test Cases/TC_02_getSingleUser" status="PASSED">
+         <system-out><![CDATA[06-09-2025T14:10:37 - [TEST_CASE][PASSED] - Test Cases/TC_02_getSingleUser: Test Cases/TC_02_getSingleUser
+
+06-09-2025T14:10:38 - [TEST_STEP][PASSED] - sendRequest(findTestObject("get_singleUser", ["baseUrl":"https://reqres.in", "userId":"3"])): Send request successfully
+
+06-09-2025T14:10:38 - [MESSAGE][INFO] - HAR: D:\Seno\Automation\Tes1\Reports\20250906_141002\test1\20250906_141002\requests\main\get_singleUser_1.har
+
+06-09-2025T14:10:38 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-09-2025T14:10:23 - [TEST_SUITE][PASSED] - test1: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

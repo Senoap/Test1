@@ -1,0 +1,25 @@
+2025-09-06 14:10:21.512 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/test1
+2025-09-06 14:10:23.171 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = seno agung
+2025-09-06 14:10:23.175 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Tes1
+2025-09-06 14:10:23.177 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - DESKTOP-F1C89G0
+2025-09-06 14:10:23.179 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-09-06 14:10:23.181 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.108
+2025-09-06 14:10:23.184 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-09-06 14:10:28.105 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-06 14:10:28.105 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_01_getListUser
+2025-09-06 14:10:30.985 DEBUG testcase.TC_01_getListUser               - 1: sendRequestAndVerify(findTestObject("get_listUser", ["baseUrl":"https://reqres.in"]))
+2025-09-06 14:10:35.645 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: D:\Seno\Automation\Tes1\Reports\20250906_141002\test1\20250906_141002\requests\main\get_listUser_0.har
+2025-09-06 14:10:36.082 INFO  c.k.k.core.main.WSVerificationExecutor   - --------------------
+2025-09-06 14:10:36.082 INFO  c.k.k.core.main.WSVerificationExecutor   - START Verification
+2025-09-06 14:10:36.355 DEBUG testcase.get_listUser                    - 1: request = getInstance().getCurrentRequest()
+2025-09-06 14:10:36.428 DEBUG testcase.get_listUser                    - 2: response = getInstance().getCurrentResponse()
+2025-09-06 14:10:36.564 INFO  c.k.k.core.main.WSVerificationExecutor   - END Verification
+2025-09-06 14:10:37.008 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_01_getListUser
+2025-09-06 14:10:37.113 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-06 14:10:37.113 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_02_getSingleUser
+2025-09-06 14:10:38.232 DEBUG testcase.TC_02_getSingleUser             - 1: sendRequest(findTestObject("get_singleUser", ["baseUrl":"https://reqres.in", "userId":"3"]))
+2025-09-06 14:10:38.744 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: D:\Seno\Automation\Tes1\Reports\20250906_141002\test1\20250906_141002\requests\main\get_singleUser_1.har
+2025-09-06 14:10:38.761 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_02_getSingleUser
+2025-09-06 14:10:39.029 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-09-06 14:10:39.031 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/test1
+2025-09-06 14:10:39.031 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

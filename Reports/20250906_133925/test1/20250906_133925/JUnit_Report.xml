@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test1" time="12.131" tests="1" failures="0" errors="0">
+   <testsuite name="test1" tests="1" failures="0" errors="0" time="12.131" skipped="0" timestamp="2025-09-06T06:39:38.784Z" hostname="Administrator - DESKTOP-F1C89G0" id="Test Suites/test1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Seno\\Automation\\Tes1\\Reports\\20250906_133925\\test1\\20250906_133925"/>
+         <property name="logFiles" value="D:\\Seno\\Automation\\Tes1\\Reports\\20250906_133925\\test1\\20250906_133925\\console0.log, D:\\Seno\\Automation\\Tes1\\Reports\\20250906_133925\\test1\\20250906_133925\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="seno agung"/>
+         <property name="hostName" value="Administrator - DESKTOP-F1C89G0"/>
+         <property name="hostAddress" value="192.168.0.108"/>
+         <property name="projectName" value="Tes1"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+      </properties>
+      <testcase name="Test Cases/TC_01_getListUser" time="8.332" classname="Test Cases/TC_01_getListUser" status="PASSED">
+         <system-out><![CDATA[06-09-2025T13:39:42 - [TEST_CASE][PASSED] - Test Cases/TC_01_getListUser: Test Cases/TC_01_getListUser
+
+06-09-2025T13:39:44 - [TEST_STEP][PASSED] - sendRequest(findTestObject("getListUser", ["baseUrl":"https://reqres.in"])): Send request successfully
+
+06-09-2025T13:39:50 - [MESSAGE][INFO] - HAR: D:\Seno\Automation\Tes1\Reports\20250906_133925\test1\20250906_133925\requests\main\getListUser_0.har
+
+06-09-2025T13:39:50 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-09-2025T13:39:38 - [TEST_SUITE][PASSED] - test1: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
