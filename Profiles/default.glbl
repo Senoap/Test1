@@ -13,14 +13,14 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'2'</initValue>
+      <initValue>'5'</initValue>
       <name>userId</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'charles.morris@reqres.in'</initValue>
       <name>email</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

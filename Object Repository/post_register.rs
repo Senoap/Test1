@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>get_singleUser</name>
+   <name>post_register</name>
    <tag></tag>
-   <elementGuidId>4f5d4497-7c65-4854-831e-b91be288dd2d</elementGuidId>
+   <elementGuidId>f577fb7f-cc9b-44f1-94d9-50968ca88640</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -19,14 +19,14 @@
       <name>x-api-key</name>
       <type>Main</type>
       <value>reqres-free-v1</value>
-      <webElementGuid>616a8c82-63ea-41ee-a187-de5bdaea2351</webElementGuid>
+      <webElementGuid>684af844-698a-4387-a068-1b2317b36c26</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>10.3.1</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${baseUrl}/api/users/${userId}</restUrl>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${baseUrl}/api/register/${userId}?email=${email}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -38,14 +38,21 @@
    <variables>
       <defaultValue>GlobalVariable.baseUrl</defaultValue>
       <description></description>
-      <id>0da64b4a-011d-4e1c-82e8-c64863218e93</id>
+      <id>236560a4-fa8a-4c65-bed0-019362bb3710</id>
       <masked>false</masked>
       <name>baseUrl</name>
    </variables>
    <variables>
+      <defaultValue>GlobalVariable.email</defaultValue>
+      <description></description>
+      <id>8aa4d5b4-f9de-42cf-84b1-5937bb51b122</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variables>
+   <variables>
       <defaultValue>GlobalVariable.userId</defaultValue>
       <description></description>
-      <id>5333736e-067e-4960-ab50-14eacf76cbdc</id>
+      <id>36c7fa20-fb93-4397-b68d-cc3b7798e06b</id>
       <masked>false</masked>
       <name>userId</name>
    </variables>
