@@ -24,6 +24,11 @@ public class GlobalVariable {
      */
     public static Object email
      
+    /**
+     * <p></p>
+     */
+    public static Object apiKey
+     
 
     static {
         try {
@@ -33,6 +38,7 @@ public class GlobalVariable {
             baseUrl = selectedVariables['baseUrl']
             userId = selectedVariables['userId']
             email = selectedVariables['email']
+            apiKey = selectedVariables['apiKey']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
