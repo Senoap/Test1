@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test1,,,,06-09-2025 16:58:08,06-09-2025 16:58:21,"12,866s",PASSED
+,,,,,,,
+Test Cases/TC_01_getListUser,,,,06-09-2025 16:58:10,06-09-2025 16:58:18,"7,888s",PASSED
+"sendRequestAndVerify(findTestObject(""get_listUser"", [""baseUrl"":""https://reqres.in""]))",,,,06-09-2025 16:58:11,06-09-2025 16:58:17,"6,386s",PASSED
+,,,,,,,
+Test Cases/TC_02_getSingleUser,,,,06-09-2025 16:58:18,06-09-2025 16:58:19,"0,923s",PASSED
+"sendRequest(findTestObject(""get_singleUser"", [""baseUrl"":""https://reqres.in"", ""userId"":""3""]))",,,,06-09-2025 16:58:18,06-09-2025 16:58:19,"0,522s",PASSED
+,,,,,,,
+Test Cases/TC_03_putUpDate,,,,06-09-2025 16:58:19,06-09-2025 16:58:20,"1,001s",PASSED
+"sendRequest(findTestObject(""put_upDate"", [""baseUrl"":baseUrl, ""userId"":userId, ""API"":apiKey]))",,,,06-09-2025 16:58:19,06-09-2025 16:58:20,"0,495s",PASSED
+,,,,,,,
+Test Cases/TC_04_postRegister,,,,06-09-2025 16:58:20,06-09-2025 16:58:21,"1,110s",PASSED
+"sendRequest(findTestObject(""post_register"", [""baseUrl"":baseUrl, ""email"":email, ""userId"":userId]))",,,,06-09-2025 16:58:20,06-09-2025 16:58:21,"0,639s",PASSED

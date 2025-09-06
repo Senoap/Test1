@@ -1,0 +1,35 @@
+2025-09-06 16:58:08.442 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/test1
+2025-09-06 16:58:08.769 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = seno agung
+2025-09-06 16:58:08.773 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Tes1
+2025-09-06 16:58:08.775 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Administrator - DESKTOP-F1C89G0
+2025-09-06 16:58:08.778 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-09-06 16:58:08.779 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.108
+2025-09-06 16:58:08.785 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-09-06 16:58:10.208 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-06 16:58:10.209 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_01_getListUser
+2025-09-06 16:58:11.605 DEBUG testcase.TC_01_getListUser               - 1: sendRequestAndVerify(findTestObject("get_listUser", ["baseUrl":"https://reqres.in"]))
+2025-09-06 16:58:16.348 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: D:\Seno\Automation\Tes1\Reports\20250906_165759\test1\20250906_165759\requests\main\get_listUser_0.har
+2025-09-06 16:58:16.907 INFO  c.k.k.core.main.WSVerificationExecutor   - --------------------
+2025-09-06 16:58:16.907 INFO  c.k.k.core.main.WSVerificationExecutor   - START Verification
+2025-09-06 16:58:17.275 DEBUG testcase.get_listUser                    - 1: request = getInstance().getCurrentRequest()
+2025-09-06 16:58:17.450 DEBUG testcase.get_listUser                    - 2: response = getInstance().getCurrentResponse()
+2025-09-06 16:58:17.625 INFO  c.k.k.core.main.WSVerificationExecutor   - END Verification
+2025-09-06 16:58:18.098 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_01_getListUser
+2025-09-06 16:58:18.254 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-06 16:58:18.255 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_02_getSingleUser
+2025-09-06 16:58:18.642 DEBUG testcase.TC_02_getSingleUser             - 1: sendRequest(findTestObject("get_singleUser", ["baseUrl":"https://reqres.in", "userId":"3"]))
+2025-09-06 16:58:19.148 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: D:\Seno\Automation\Tes1\Reports\20250906_165759\test1\20250906_165759\requests\main\get_singleUser_1.har
+2025-09-06 16:58:19.178 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_02_getSingleUser
+2025-09-06 16:58:19.192 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-06 16:58:19.194 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_03_putUpDate
+2025-09-06 16:58:19.694 DEBUG testcase.TC_03_putUpDate                 - 1: sendRequest(findTestObject("put_upDate", ["baseUrl":baseUrl, "userId":userId, "API":apiKey]))
+2025-09-06 16:58:20.162 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: D:\Seno\Automation\Tes1\Reports\20250906_165759\test1\20250906_165759\requests\main\put_upDate_2.har
+2025-09-06 16:58:20.196 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_03_putUpDate
+2025-09-06 16:58:20.217 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-06 16:58:20.222 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC_04_postRegister
+2025-09-06 16:58:20.689 DEBUG testcase.TC_04_postRegister              - 1: sendRequest(findTestObject("post_register", ["baseUrl":baseUrl, "email":email, "userId":userId]))
+2025-09-06 16:58:21.319 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: D:\Seno\Automation\Tes1\Reports\20250906_165759\test1\20250906_165759\requests\main\post_register_3.har
+2025-09-06 16:58:21.332 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC_04_postRegister
+2025-09-06 16:58:21.579 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-09-06 16:58:21.579 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/test1
+2025-09-06 16:58:21.579 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

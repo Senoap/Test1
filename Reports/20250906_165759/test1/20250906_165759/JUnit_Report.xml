@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test1" time="12.618" tests="4" failures="0" errors="0">
+   <testsuite name="test1" tests="4" failures="0" errors="0" time="12.618" skipped="0" timestamp="2025-09-06T09:58:08.714Z" hostname="Administrator - DESKTOP-F1C89G0" id="Test Suites/test1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Seno\\Automation\\Tes1\\Reports\\20250906_165759\\test1\\20250906_165759"/>
+         <property name="logFiles" value="D:\\Seno\\Automation\\Tes1\\Reports\\20250906_165759\\test1\\20250906_165759\\console0.log, D:\\Seno\\Automation\\Tes1\\Reports\\20250906_165759\\test1\\20250906_165759\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="seno agung"/>
+         <property name="hostName" value="Administrator - DESKTOP-F1C89G0"/>
+         <property name="hostAddress" value="192.168.0.108"/>
+         <property name="projectName" value="Tes1"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+      </properties>
+      <testcase name="Test Cases/TC_01_getListUser" time="7.888" classname="Test Cases/TC_01_getListUser" status="PASSED">
+         <system-out><![CDATA[06-09-2025T16:58:10 - [TEST_CASE][PASSED] - Test Cases/TC_01_getListUser: Test Cases/TC_01_getListUser
+
+06-09-2025T16:58:11 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("get_listUser", ["baseUrl":"https://reqres.in"])): Send request and verify the response successfully
+
+06-09-2025T16:58:16 - [MESSAGE][INFO] - HAR: D:\Seno\Automation\Tes1\Reports\20250906_165759\test1\20250906_165759\requests\main\get_listUser_0.har
+
+06-09-2025T16:58:16 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+06-09-2025T16:58:17 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+06-09-2025T16:58:17 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+06-09-2025T16:58:17 - [MESSAGE][PASSED] - Verify response successfully
+
+06-09-2025T16:58:17 - [MESSAGE][PASSED] - All validation steps have been passed
+
+06-09-2025T16:58:17 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_02_getSingleUser" time="0.923" classname="Test Cases/TC_02_getSingleUser" status="PASSED">
+         <system-out><![CDATA[06-09-2025T16:58:18 - [TEST_CASE][PASSED] - Test Cases/TC_02_getSingleUser: Test Cases/TC_02_getSingleUser
+
+06-09-2025T16:58:18 - [TEST_STEP][PASSED] - sendRequest(findTestObject("get_singleUser", ["baseUrl":"https://reqres.in", "userId":"3"])): Send request successfully
+
+06-09-2025T16:58:19 - [MESSAGE][INFO] - HAR: D:\Seno\Automation\Tes1\Reports\20250906_165759\test1\20250906_165759\requests\main\get_singleUser_1.har
+
+06-09-2025T16:58:19 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_03_putUpDate" time="1.001" classname="Test Cases/TC_03_putUpDate" status="PASSED">
+         <system-out><![CDATA[06-09-2025T16:58:19 - [TEST_CASE][PASSED] - Test Cases/TC_03_putUpDate: Test Cases/TC_03_putUpDate
+
+06-09-2025T16:58:19 - [TEST_STEP][PASSED] - sendRequest(findTestObject("put_upDate", ["baseUrl":baseUrl, "userId":userId, "API":apiKey])): Send request successfully
+
+06-09-2025T16:58:20 - [MESSAGE][INFO] - HAR: D:\Seno\Automation\Tes1\Reports\20250906_165759\test1\20250906_165759\requests\main\put_upDate_2.har
+
+06-09-2025T16:58:20 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_04_postRegister" time="1.11" classname="Test Cases/TC_04_postRegister" status="PASSED">
+         <system-out><![CDATA[06-09-2025T16:58:20 - [TEST_CASE][PASSED] - Test Cases/TC_04_postRegister: Test Cases/TC_04_postRegister
+
+06-09-2025T16:58:20 - [TEST_STEP][PASSED] - sendRequest(findTestObject("post_register", ["baseUrl":baseUrl, "email":email, "userId":userId])): Send request successfully
+
+06-09-2025T16:58:21 - [MESSAGE][INFO] - HAR: D:\Seno\Automation\Tes1\Reports\20250906_165759\test1\20250906_165759\requests\main\post_register_3.har
+
+06-09-2025T16:58:21 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-09-2025T16:58:08 - [TEST_SUITE][PASSED] - test1: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
