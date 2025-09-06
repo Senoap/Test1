@@ -13,6 +13,14 @@
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>x-api-key</name>
+      <type>Main</type>
+      <value>reqres-free-v1</value>
+      <webElementGuid>aa62068c-c083-4dd1-814d-20963b915009</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>10.3.1</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
